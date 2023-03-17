@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Check is the random variable is positive , zero or negative 
+ *main - Check is the random variable is
+ * positive , zero or negative 
  *@void - empty argument
  *
  *Return: returns zero
