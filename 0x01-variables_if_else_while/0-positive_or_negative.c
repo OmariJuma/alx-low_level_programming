@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+/*This is the entry point of the main function*/
 int main(void)
 {
 	int n;
