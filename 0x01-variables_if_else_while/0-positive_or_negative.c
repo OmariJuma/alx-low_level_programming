@@ -3,7 +3,11 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/*This is the entry point of the main function*/
+
+/**
+ *main - Check is the random variable is positive , zero or negative 
+ *@void - empty argument
+ * */
 int main(void)
 {
 	int n;
