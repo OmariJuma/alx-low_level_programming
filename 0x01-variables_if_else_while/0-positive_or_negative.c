@@ -7,6 +7,7 @@
 /**
  *main - Check is the random variable is positive , zero or negative 
  *@void - empty argument
+ *
  *Return: returns zero
  */
 int main(void)
