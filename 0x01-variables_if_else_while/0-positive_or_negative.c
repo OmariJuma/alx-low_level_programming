@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *main - Check is the random variable is
- * positive , zero or negative 
- *@void - empty argument
+ * main - entry point
  *
- *Return: returns zero
+ * Return:always return 0
+ *
  */
 int main(void)
 {
@@ -26,4 +26,3 @@ int main(void)
 	}
 	return (0);
 }
-
