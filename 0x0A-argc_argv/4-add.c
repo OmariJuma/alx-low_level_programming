@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * checker_numero - check - string there are digit
+ * checker_numero - check - string there are digit :)
  * @str: array str
  *
  * Return: the int converted from the string
@@ -10,22 +10,22 @@
 
 int checker_numero(char *str)
 {
-	int i;
+	int l;
 	int num = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (l = 0; str[l] != '\0'; l++)
 	{
-		if (str[i] < '0' || str[i] > '9')
+		if (str[l] < '0' || str[l] > '9')
 		{
 			return (-1);
 		}
-		num = num * 10 + (str[i] - '0');
+		num = num * 10 + (str[l] - '0');
 	}
 	return (num);
 }
 
 /**
- * main - Print the name of the program 
+ * main - Print the name of the program :)
  * @argc: Count arguments
  * @argv: Arguments
  *
