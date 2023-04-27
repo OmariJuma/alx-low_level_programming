@@ -1,8 +1,4 @@
-/*
- * File: 1-list_len.c
- * 
- */
-
+#include <stdlib.h>
 #include "lists.h"
 
 /**
